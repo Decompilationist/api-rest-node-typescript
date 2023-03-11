@@ -11,7 +11,7 @@ router.post('/teste', (req, res) => {
     // Para exibir os posts enviados pelo INSOMIA
     console.log(req);
 
-    // Para retornar esse texto como padrão. 
+    // Para retornar o texto da requisição como padrão. 
     return res.status(StatusCodes.UNAUTHORIZED).json(req.body);
 });
 
